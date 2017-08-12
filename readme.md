@@ -8,8 +8,6 @@
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 </h1>
 
----
-
 Maintained by [Zander Martineau](https://github.com/mrmartineau)
 
 ## Features
@@ -42,4 +40,4 @@ For transparency into our release cycle and in striving to maintain backward com
 
 ## Licence
 
-[MIT](licence.md)
+[MIT](LICENCE)
