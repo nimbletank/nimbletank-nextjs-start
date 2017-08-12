@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Masthead snapshot test 1`] = `
+<div>
+  <h1>
+    Zander
+  </h1>
+  <a
+    href="http://zander.wtf"
+  >
+    Zander
+  </a>
+  <a
+    href="http://nimbletank.com"
+  >
+    Nimbletank
+  </a>
+</div>
+`;
