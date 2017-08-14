@@ -17,14 +17,16 @@ Maintained by [Zander Martineau](https://github.com/mrmartineau)
 * [StandardJS](https://standardjs.com) Linting
 * Component styling with [styled-jsx](https://github.com/zeit/styled-jsx/)
 * SVGs rendered inline using [babel-plugin-inline-react-svg](https://github.com/kesne/babel-plugin-inline-react-svg)
+* UI development environment provided by [Storybook](https://storybook.js.org/)
 
 ## Tasks
-* `npm run dev` for local development
-* `npm run build` to build the app for deployment
-* `npm start` to run the app in production environment
-* `npm test` to test everything
-* `npm test:watch` to watch files for changes and rerun tests related to changed files
-* `npm test:coverage` to provide code coverage report
+* `npm run dev` / `yarn dev` for local development
+* `npm run build` / `yarn build` to build the app for deployment
+* `npm start` / `yarn start` to run the app in production environment
+* `npm test` / `yarn test` to test everything
+* `npm run test:watch` / `yarn test:watch` to watch files for changes and rerun tests related to changed files
+* `npm run storybook:run` / `yarn storybook:run` to run storybook locally
+* `npm run storybook:build` / `yarn storybook:build` to compile storybook for static deployment
 
 ### Understanding next.js
 Find out more about next.js [here](https://learnnextjs.com)
