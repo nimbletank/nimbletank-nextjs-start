@@ -10,7 +10,7 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage",
-        "format:js": "prettier-standard 'components/**/*.js' 'pages/**/*.js'",
+        "format:js": "prettier-standard 'components/**/*.js' 'pages/**/*.js' '.storybook/**/*.js'",
         "lint:js": "standard",
         "precommit": "lint-staged",
         "storybook:run": "BABEL_ENV=test start-storybook -s ./static -p 9001 -c .storybook",
