@@ -18,7 +18,7 @@
     },
     "lint-staged": {
         "linters": {
-            "(components|pages)/**/*.js": [
+            "(components|pages|.storybook)/**/*.js": [
                 "prettier-standard",
                 "test",
                 "git add"
