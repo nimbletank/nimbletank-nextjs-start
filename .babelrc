@@ -1,19 +1,32 @@
 {
   "env": {
     "development": {
-      "presets": "next/babel"
+      "presets": "next/babel",
+      "plugins": [
+        ["emotion", { "sourceMap": true }],
+        "inline-react-svg"
+      ]
     },
     "production": {
-      "presets": "next/babel"
+      "presets": "next/babel",
+      "plugins": [
+        ["emotion", { "sourceMap": false }],
+        "inline-react-svg"
+      ]
     },
     "test": {
       "presets": [
         "env",
         "next/babel"
+      ],
+      "plugins": [
+        ["emotion", { "sourceMap": true }],
+        "inline-react-svg"
       ]
     }
   },
   "plugins": [
+    ["emotion", { "sourceMap": true }],
     "inline-react-svg"
   ]
 }
