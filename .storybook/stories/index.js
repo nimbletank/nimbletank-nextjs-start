@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import Car from '../../svg/car.svg'
 
-storiesOf('Info', module).add('Info', () =>
+storiesOf('Info', module).add('Info', () => (
   <div>
     <h1>Design System</h1>
     <p>
@@ -12,4 +12,4 @@ storiesOf('Info', module).add('Info', () =>
       </a>
     </p>
   </div>
-)
+))

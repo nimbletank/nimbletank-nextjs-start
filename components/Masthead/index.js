@@ -3,9 +3,7 @@ import React from 'react'
 const Masthead = ({ title, links }) => {
   return (
     <div>
-      <h1>
-        {title}
-      </h1>
+      <h1>{title}</h1>
       {links &&
         links.map((item, index) => {
           return (
