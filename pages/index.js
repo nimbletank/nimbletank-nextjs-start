@@ -1,22 +1,18 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Router from 'next/router'
-import Car from '../svg/car.svg'
+import MasterLayout from '../layouts/master'
+import styled from 'react-emotion'
 
-export default () =>
-  <div>
-    <Head>
-      <title>My page title</title>
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-    </Head>
-    <p>Hello world!</p>
-    <div>
-      Click <span onClick={() => Router.push('/about')}>here</span> to read more
-    </div>
-    <Car />
-    <style jsx>{`
-      p {
-        color: red;
-      }
-    `}</style>
-  </div>
+const SiteContainer = styled('div')`
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+`
+
+export default () => (
+  <MasterLayout>
+    <SiteContainer>
+    </SiteContainer>
+  </MasterLayout>
+)
