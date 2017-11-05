@@ -75,17 +75,17 @@
     react-addons-create-fragment "^15.5.3"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-knobs@^3.2.8":
-  version "3.2.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.2.12.tgz#b944fe59d12b82de9366436b59d67f40ee905a44"
+"@storybook/addon-knobs@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.2.14.tgz#2934275dfbe3f940d4be3732af1c8f2b80ee7639"
   dependencies:
-    "@storybook/addons" "^3.2.12"
+    "@storybook/addons" "^3.2.14"
     babel-runtime "^6.26.0"
     deep-equal "^1.0.1"
     global "^4.3.2"
     insert-css "^1.0.0"
     lodash.debounce "^4.0.8"
-    moment "^2.18.1"
+    moment "^2.19.1"
     prop-types "^15.6.0"
     react-color "^2.11.4"
     react-datetime "^2.10.3"
@@ -107,6 +107,10 @@
 "@storybook/addons@^3.2.12":
   version "3.2.12"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.12.tgz#61adccaa8c0016f1439dc8934d8d61042b35e741"
+
+"@storybook/addons@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.14.tgz#4d765c47e94729a33ca5466c9ee0f159c9f141db"
 
 "@storybook/channel-postmessage@^3.2.12":
   version "3.2.12"
@@ -2837,9 +2841,9 @@ emotion-server@^8.0.6:
   dependencies:
     emotion-utils "^8.0.6"
 
-emotion-theming@^8.0.6:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.4.tgz#63bb121ee7961e5f56ff69803f9d86319cc14446"
+emotion-theming@^8.0.4:
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.9.tgz#90530194f124de7acb0b814e057f9d817df435d6"
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
@@ -5423,7 +5427,7 @@ modularscale-js@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/modularscale-js/-/modularscale-js-3.0.1.tgz#6b3e6a3ecac678210a14a3f700c4e7da141af9e3"
 
-moment@^2.11.2, moment@^2.18.1:
+moment@^2.11.2, moment@^2.19.1:
   version "2.19.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.1.tgz#56da1a2d1cbf01d38b7e1afc31c10bcfa1929167"
 
@@ -8505,10 +8509,6 @@ write@^0.2.1:
 xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
-
-xkcd@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/xkcd/-/xkcd-1.1.2.tgz#58ad07afa4849da5d3607df38204c3d65bfe17c4"
 
 xml-name-validator@^2.0.1:
   version "2.0.1"
