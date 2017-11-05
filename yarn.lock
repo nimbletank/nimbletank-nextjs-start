@@ -2073,6 +2073,14 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
 
+clipboard@^1.5.5:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -2664,6 +2672,10 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
 
+delegate@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.1.3.tgz#9a8251a777d7025faa55737bc3b071742127a9fd"
+
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
@@ -2837,9 +2849,9 @@ emotion-server@^8.0.6:
   dependencies:
     emotion-utils "^8.0.6"
 
-emotion-theming@^8.0.6:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.4.tgz#63bb121ee7961e5f56ff69803f9d86319cc14446"
+emotion-theming@^8.0.4:
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.9.tgz#90530194f124de7acb0b814e057f9d817df435d6"
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
@@ -3803,6 +3815,12 @@ globby@^6.1.0:
     object-assign "^4.0.1"
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  dependencies:
+    delegate "^3.1.2"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4, graceful-fs@^4.1.6:
   version "4.1.11"
@@ -6489,6 +6507,12 @@ pretty-format@^21.2.1:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
+prismjs@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.8.3.tgz#4a3d140be5f2614a8987ca2330733a40d8ad207b"
+  optionalDependencies:
+    clipboard "^1.5.5"
+
 private@^0.1.6, private@^0.1.7, private@~0.1.5:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -6818,7 +6842,7 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
-react-remarkable@^1.1.1:
+react-remarkable@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/react-remarkable/-/react-remarkable-1.1.3.tgz#6ef3861812d806fbf747cc1d1e151ee3172130a6"
   dependencies:
@@ -7371,6 +7395,10 @@ schema-utils@^0.3.0:
   dependencies:
     ajv "^5.0.0"
 
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+
 semantic-release@^8.0.3:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-8.2.0.tgz#972aa3a7246065d8a405991005a210e46995d4b6"
@@ -7674,12 +7702,13 @@ storybook-addon-jsx@^5.0.0:
     react-copy-to-clipboard "5.0.1"
     react-element-to-jsx-string "13.0.0"
 
-storybook-readme@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-3.0.6.tgz#475a14a5b39dc7a85c423431253a2bf1f5b1c786"
+storybook-readme@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-3.1.1.tgz#4e7f3f83e64b451e6dec4608ff5861048dbdf9ad"
   dependencies:
-    prop-types "^15.5.10"
-    react-remarkable "^1.1.1"
+    lodash "^4.17.4"
+    prismjs "^1.8.3"
+    react-remarkable "^1.1.2"
     string-raw "^1.0.1"
 
 stream-browserify@^2.0.1:
@@ -7991,6 +8020,10 @@ timers-browserify@^2.0.2:
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.4.tgz#96ca53f4b794a5e7c0e1bd7cc88a372298fa01e6"
   dependencies:
     setimmediate "^1.0.4"
+
+tiny-emitter@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
 
 tinycolor2@^1.4.1:
   version "1.4.1"
@@ -8505,10 +8538,6 @@ write@^0.2.1:
 xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
-
-xkcd@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/xkcd/-/xkcd-1.1.2.tgz#58ad07afa4849da5d3607df38204c3d65bfe17c4"
 
 xml-name-validator@^2.0.1:
   version "2.0.1"
