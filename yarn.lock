@@ -2837,9 +2837,9 @@ emotion-server@^8.0.6:
   dependencies:
     emotion-utils "^8.0.6"
 
-emotion-theming@^8.0.6:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.4.tgz#63bb121ee7961e5f56ff69803f9d86319cc14446"
+emotion-theming@^8.0.4:
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.9.tgz#90530194f124de7acb0b814e057f9d817df435d6"
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
@@ -4883,12 +4883,13 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^4.0.4:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.2.3.tgz#5a1f12256af06110b96225f109dbf215009a37a9"
+lint-staged@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.3.0.tgz#ed0779ad9a42c0dc62bb3244e522870b41125879"
   dependencies:
     app-root-path "^2.0.0"
     chalk "^2.1.0"
+    commander "^2.11.0"
     cosmiconfig "^1.1.0"
     execa "^0.8.0"
     is-glob "^4.0.0"
@@ -8505,10 +8506,6 @@ write@^0.2.1:
 xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
-
-xkcd@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/xkcd/-/xkcd-1.1.2.tgz#58ad07afa4849da5d3607df38204c3d65bfe17c4"
 
 xml-name-validator@^2.0.1:
   version "2.0.1"
