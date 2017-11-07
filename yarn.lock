@@ -6465,9 +6465,13 @@ prettier-standard@^7.0.3:
     prettier-eslint "^8.1.1"
     rxjs "^5.4.0"
 
-prettier@1.7.x, prettier@^1.5.3, prettier@^1.7.1:
+prettier@1.7.x, prettier@^1.7.1:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.7.4.tgz#5e8624ae9363c80f95ec644584ecdf55d74f93fa"
+
+prettier@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.8.0.tgz#d9dc68277cf1ded816c8e8863ab47889c29ce9a6"
 
 pretty-format@^20.0.3:
   version "20.0.3"
