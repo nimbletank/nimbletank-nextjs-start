@@ -865,6 +865,18 @@ babel-plugin-emotion@^8.0.6:
     source-map "^0.5.7"
     touch "^1.0.0"
 
+babel-plugin-emotion@^8.0.9:
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-8.0.9.tgz#65a9ead1e9a574fa1b0390ebcea942739761713c"
+  dependencies:
+    babel-generator "^6.26.0"
+    babel-macros "^1.0.2"
+    babel-plugin-syntax-jsx "^6.18.0"
+    convert-source-map "^1.5.0"
+    emotion-utils "^8.0.9"
+    source-map "^0.5.7"
+    touch "^1.0.0"
+
 babel-plugin-inline-react-svg@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-inline-react-svg/-/babel-plugin-inline-react-svg-0.4.0.tgz#940f77be66324f2c75a0fb64f287f459c40602a7"
@@ -6740,12 +6752,12 @@ react-element-to-jsx-string@13.0.0:
     sortobject "1.1.1"
     stringify-object "3.2.1"
 
-react-emotion@^8.0.6:
-  version "8.0.6"
-  resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-8.0.6.tgz#3d9c857a0749f5687f07313a053d57e3392fa067"
+react-emotion@^8.0.9:
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-8.0.9.tgz#6fbaacf3387a61f1f754fea08006972ea2953ee3"
   dependencies:
-    babel-plugin-emotion "^8.0.6"
-    emotion-utils "^8.0.6"
+    babel-plugin-emotion "^8.0.9"
+    emotion-utils "^8.0.9"
 
 react-hot-loader@^3.0.0:
   version "3.0.0"
