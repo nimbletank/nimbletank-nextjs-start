@@ -34,7 +34,7 @@
     "license": "MIT",
     "dependencies": {
         "axios": "^0.16.2",
-        "design-system-utils": "^0.2.1",
+        "design-system-utils": "^0.7.0",
         "emotion": "^8.0.6",
         "emotion-server": "^8.0.9",
         "emotion-theming": "^8.0.4",
