@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Router from 'next/router'
 import MasterLayout from '../layouts/master'
 import styled from 'react-emotion'
 
