@@ -35,7 +35,7 @@
     "dependencies": {
         "axios": "^0.16.2",
         "design-system-utils": "^0.7.0",
-        "emotion": "^8.0.6",
+        "emotion": "^8.0.10",
         "emotion-server": "^8.0.10",
         "emotion-theming": "^8.0.10",
         "next": "^4.1.4",
