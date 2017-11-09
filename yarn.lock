@@ -2888,9 +2888,9 @@ emotion-server@^8.0.9:
   dependencies:
     emotion-utils "^8.0.9"
 
-emotion-theming@^8.0.4:
-  version "8.0.9"
-  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.9.tgz#90530194f124de7acb0b814e057f9d817df435d6"
+emotion-theming@^8.0.10:
+  version "8.0.10"
+  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-8.0.10.tgz#8d85efff3fe56006087015f0abd7b575f98dad05"
   dependencies:
     hoist-non-react-statics "^2.3.1"
 

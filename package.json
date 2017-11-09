@@ -37,7 +37,7 @@
         "design-system-utils": "^0.2.1",
         "emotion": "^8.0.6",
         "emotion-server": "^8.0.9",
-        "emotion-theming": "^8.0.4",
+        "emotion-theming": "^8.0.10",
         "next": "^4.1.4",
         "polished": "^1.8.1",
         "react": "^16.0.0",
