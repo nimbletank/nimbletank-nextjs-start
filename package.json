@@ -54,7 +54,7 @@
         "babel-plugin-emotion": "^8.0.10",
         "babel-plugin-inline-react-svg": "^0.4.0",
         "enzyme": "^3.1.1",
-        "enzyme-to-json": "^3.1.2",
+        "enzyme-to-json": "^3.2.2",
         "eslint": "^4.10.0",
         "husky": "^0.14.3",
         "jest": "^21.2.1",
