@@ -117,15 +117,19 @@
   dependencies:
     "@storybook/addons" "^3.2.14"
 
-"@storybook/addon-options@^3.2.6":
-  version "3.2.14"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.2.14.tgz#5bb56d667a651a62d32d79b92914544393f10329"
+"@storybook/addon-options@^3.2.15":
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.2.15.tgz#efbae32f711db284a651a7e54b498ea65620b589"
   dependencies:
-    "@storybook/addons" "^3.2.14"
+    "@storybook/addons" "^3.2.15"
 
 "@storybook/addons@^3.2.14":
   version "3.2.14"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.14.tgz#4d765c47e94729a33ca5466c9ee0f159c9f141db"
+
+"@storybook/addons@^3.2.15":
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.15.tgz#120fc3e34454b9e6c779f25b945d354511168abc"
 
 "@storybook/channel-postmessage@^3.2.14":
   version "3.2.14"
