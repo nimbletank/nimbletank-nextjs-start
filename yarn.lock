@@ -909,9 +909,9 @@ babel-plugin-emotion@^8.0.10:
     source-map "^0.5.7"
     touch "^1.0.0"
 
-babel-plugin-inline-react-svg@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-inline-react-svg/-/babel-plugin-inline-react-svg-0.5.1.tgz#d92e8669042e96b5e972104b08ce144da6b8ecd9"
+babel-plugin-inline-react-svg@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-inline-react-svg/-/babel-plugin-inline-react-svg-0.5.2.tgz#f4c9ea5384e8d08a7a4f96a19f22a5eab0ddf3a9"
   dependencies:
     babel-template "^6.15.0"
     babel-traverse "^6.15.0"
