@@ -33,7 +33,7 @@
     "author": "Zander Martineau",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.16.2",
+        "axios": "^0.17.1",
         "design-system-utils": "^0.8.0",
         "emotion": "^8.0.6",
         "emotion-server": "^8.0.10",
