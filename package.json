@@ -40,7 +40,7 @@
         "emotion-theming": "^8.0.10",
         "next": "^4.1.4",
         "polished": "^1.9.0",
-        "react": "^16.1.0",
+        "react": "^16.1.1",
         "react-dom": "^16.0.0",
         "react-emotion": "^8.0.10",
         "styled-system": "^1.0.8"
