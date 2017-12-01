@@ -51,7 +51,7 @@
         "@storybook/addon-knobs": "^3.2.14",
         "@storybook/addon-options": "^3.2.6",
         "@storybook/react": "^3.2.8",
-        "babel-plugin-emotion": "^8.0.11",
+        "babel-plugin-emotion": "^8.0.12",
         "babel-plugin-inline-react-svg": "^0.5.1",
         "enzyme": "^3.1.1",
         "enzyme-to-json": "^3.2.2",
