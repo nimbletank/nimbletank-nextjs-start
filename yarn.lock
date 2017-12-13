@@ -2747,9 +2747,9 @@ des.js@^1.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
 
-design-system-utils@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/design-system-utils/-/design-system-utils-0.10.0.tgz#114404f1be9243bfa2fef526cd6a713bfb5285b9"
+design-system-utils@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/design-system-utils/-/design-system-utils-0.11.1.tgz#87b05dbf9d135ce59e06e399280320168e18b54b"
   dependencies:
     modularscale-js "^3.0.1"
     object-get "^2.1.0"
