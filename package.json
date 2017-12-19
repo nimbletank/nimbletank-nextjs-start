@@ -46,7 +46,7 @@
         "styled-system": "^1.0.8"
     },
     "devDependencies": {
-        "@storybook/addon-actions": "^3.2.6",
+        "@storybook/addon-actions": "^3.2.18",
         "@storybook/addon-info": "^3.2.14",
         "@storybook/addon-knobs": "^3.2.14",
         "@storybook/addon-options": "^3.2.6",
