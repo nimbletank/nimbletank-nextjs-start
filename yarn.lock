@@ -125,15 +125,16 @@
     react-inspector "^2.2.1"
     uuid "^3.1.0"
 
-"@storybook/addon-info@^3.2.14":
-  version "3.2.17"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-3.2.17.tgz#a1a612ca323c360089dd4d49aca8abf902d4929d"
+"@storybook/addon-info@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-3.3.1.tgz#04f6be31df26847d6f64c11de201591972adc232"
   dependencies:
-    "@storybook/addons" "^3.2.17"
-    "@storybook/components" "^3.2.17"
+    "@storybook/client-logger" "^3.3.1"
+    "@storybook/components" "^3.3.1"
     babel-runtime "^6.26.0"
     global "^4.3.2"
-    marksy "^2.0.0"
+    marksy "^6.0.1"
+    nested-object-assign "^1.0.1"
     prop-types "^15.6.0"
     react-addons-create-fragment "^15.5.3"
     util-deprecate "^1.0.2"
@@ -183,12 +184,24 @@
   version "3.2.17"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-3.2.17.tgz#09219a512564d1aa2292419d8d6064dbf7f5a5b3"
 
+"@storybook/client-logger@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-3.3.1.tgz#2c36ae058e96139bb586eff09c2092cfcd508e26"
+
 "@storybook/components@^3.2.17":
   version "3.2.17"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.2.17.tgz#318c6e6a1d3ffb469523b5dcfee775639ccc500b"
   dependencies:
     glamor "^2.20.40"
     glamorous "^4.11.0"
+    prop-types "^15.6.0"
+
+"@storybook/components@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.3.1.tgz#c4a1fdb44d0411cb89a964ac373c1300f56ccf02"
+  dependencies:
+    glamor "^2.20.40"
+    glamorous "^4.11.2"
     prop-types "^15.6.0"
 
 "@storybook/mantra-core@^1.7.0":
@@ -3827,6 +3840,18 @@ glamorous@^4.11.0:
     react-html-attributes "^1.3.0"
     svg-tag-names "^1.1.0"
 
+glamorous@^4.11.2:
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/glamorous/-/glamorous-4.11.2.tgz#ce144c6a53e247ddf0896ad6faddebf78c49d864"
+  dependencies:
+    brcast "^3.0.0"
+    fast-memoize "^2.2.7"
+    html-tag-names "^1.1.1"
+    is-function "^1.0.1"
+    is-plain-object "^2.0.4"
+    react-html-attributes "^1.3.0"
+    svg-tag-names "^1.1.0"
+
 glob-base@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"
@@ -5343,9 +5368,9 @@ marked@^0.3.6:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.7.tgz#80ef3bbf1bd00d1c9cfebe42ba1b8c85da258d0d"
 
-marksy@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/marksy/-/marksy-2.0.1.tgz#019eb9c13ff37120ce4dddeb7774aba152b5d7e0"
+marksy@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/marksy/-/marksy-6.0.1.tgz#ea05f170a5f8a3f935b2ef51a9b7847c947b7402"
   dependencies:
     babel-standalone "^6.24.0"
     he "^1.1.1"
@@ -5598,6 +5623,10 @@ negotiator@0.6.1:
 nerf-dart@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nerf-dart/-/nerf-dart-1.0.0.tgz#e6dab7febf5ad816ea81cf5c629c5a0ebde72c1a"
+
+nested-object-assign@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/nested-object-assign/-/nested-object-assign-1.0.2.tgz#9a84ef51b5c11298b5476d6c65b26458c9eae82b"
 
 netrc@^0.1.4:
   version "0.1.4"
