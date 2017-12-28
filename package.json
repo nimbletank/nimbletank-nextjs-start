@@ -48,7 +48,7 @@
     "devDependencies": {
         "@storybook/addon-actions": "^3.2.6",
         "@storybook/addon-info": "^3.2.14",
-        "@storybook/addon-knobs": "^3.2.14",
+        "@storybook/addon-knobs": "^3.3.2",
         "@storybook/addon-options": "^3.2.6",
         "@storybook/react": "^3.2.8",
         "babel-plugin-emotion": "^8.0.11",
