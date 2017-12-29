@@ -161,11 +161,9 @@
   dependencies:
     "@storybook/addons" "^3.2.17"
 
-"@storybook/addon-options@^3.2.6":
-  version "3.2.17"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.2.17.tgz#1ca1de1f3cf8ac7ec99bcdd534d6e034f9ee4f20"
-  dependencies:
-    "@storybook/addons" "^3.2.17"
+"@storybook/addon-options@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.3.3.tgz#23617537e3e1ef6a4be278b097c32720603f5c5a"
 
 "@storybook/addons@^3.2.17":
   version "3.2.17"
