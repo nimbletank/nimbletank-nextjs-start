@@ -1,68 +1,72 @@
 {
-    "name": "nimbletank-nextjs-boilerplate",
-    "version": "0.0.0",
-    "description": "Next.js Boilerplate for Nimbletank projects",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start",
-        "test": "jest",
-        "test:watch": "jest --watch",
-        "test:coverage": "jest --coverage",
-        "format:js": "prettier-standard 'components/**/*.js' 'pages/**/*.js' '.storybook/**/*.js'  'layouts/**/*.js'",
-        "lint:js": "standard",
-        "precommit": "lint-staged",
-        "storybook:run": "BABEL_ENV=test start-storybook -s ./static -p 9001 -c .storybook",
-        "storybook:build": "BABEL_ENV=test build-storybook -s ./static -c .storybook -o .out"
-    },
-    "lint-staged": {
-        "linters": {
-            "(components|pages|.storybook)/**/*.js": [
-                "prettier-standard",
-                "test",
-                "git add"
-            ]
-        }
-    },
-    "keywords": [
-        "react",
-        "react.js",
-        "next.js"
-    ],
-    "author": "Zander Martineau",
-    "license": "MIT",
-    "dependencies": {
-        "axios": "^0.17.1",
-        "design-system-utils": "^0.10.0",
-        "emotion": "^8.0.11",
-        "emotion-server": "^8.0.11",
-        "emotion-theming": "^8.0.11",
-        "next": "^4.1.4",
-        "polished": "^1.9.0",
-        "react": "^16.1.1",
-        "react-dom": "^16.0.0",
-        "react-emotion": "^8.0.11",
-        "styled-system": "^1.0.8"
-    },
-    "devDependencies": {
-        "@storybook/addon-actions": "^3.2.6",
-        "@storybook/addon-info": "^3.2.14",
-        "@storybook/addon-knobs": "^3.2.14",
-        "@storybook/addon-options": "^3.2.6",
-        "@storybook/react": "^3.2.8",
-        "babel-plugin-emotion": "^8.0.11",
-        "babel-plugin-inline-react-svg": "^0.5.1",
-        "enzyme": "^3.1.1",
-        "enzyme-to-json": "^3.2.2",
-        "eslint": "^4.10.0",
-        "husky": "^0.14.3",
-        "jest": "^21.2.1",
-        "lint-staged": "^5.0.0",
-        "prettier": "^1.8.0",
-        "prettier-standard": "^7.0.3",
-        "react-test-renderer": "^16.0.0",
-        "storybook-addon-jsx": "^5.0.0",
-        "storybook-readme": "3.1.1"
+  "name": "nimbletank-nextjs-boilerplate",
+  "version": "0.0.0",
+  "description": "Next.js Boilerplate for Nimbletank projects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "format:js": "prettier-standard 'components/**/*.js' 'pages/**/*.js' '.storybook/**/*.js'  'layouts/**/*.js'",
+    "lint:js": "standard",
+    "precommit": "lint-staged",
+    "storybook:run": "BABEL_ENV=test start-storybook -s ./static -p 9001 -c .storybook",
+    "storybook:build": "BABEL_ENV=test build-storybook -s ./static -c .storybook -o .out",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "lint-staged": {
+    "linters": {
+      "(components|pages|.storybook)/**/*.js": [
+        "prettier-standard",
+        "test",
+        "git add"
+      ]
     }
+  },
+  "keywords": [
+    "react",
+    "react.js",
+    "next.js"
+  ],
+  "author": "Zander Martineau",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "design-system-utils": "^0.10.0",
+    "emotion": "^8.0.11",
+    "emotion-server": "^8.0.11",
+    "emotion-theming": "^8.0.11",
+    "next": "^4.1.4",
+    "polished": "^1.9.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.0.0",
+    "react-emotion": "^8.0.11",
+    "styled-system": "^1.0.8",
+    "snyk": "^1.83.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-info": "^3.2.14",
+    "@storybook/addon-knobs": "^3.2.14",
+    "@storybook/addon-options": "^3.2.6",
+    "@storybook/react": "^3.2.8",
+    "babel-plugin-emotion": "^8.0.11",
+    "babel-plugin-inline-react-svg": "^0.5.1",
+    "enzyme": "^3.1.1",
+    "enzyme-to-json": "^3.2.2",
+    "eslint": "^4.10.0",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.0",
+    "prettier-standard": "^7.0.3",
+    "react-test-renderer": "^16.0.0",
+    "storybook-addon-jsx": "^5.0.0",
+    "storybook-readme": "3.1.1"
+  },
+  "snyk": true
 }
