@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - next > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-01T13:48:44.028Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          next > webpack > watchpack > chokidar > fsevents > node-pre-gyp >
+          request > extend
+  'npm:stringstream:20180511':
+    - next > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-01T13:48:44.028Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          next > webpack > watchpack > chokidar > fsevents > node-pre-gyp >
+          request > stringstream
