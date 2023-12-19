@@ -33,15 +33,15 @@
     "author": "Zander Martineau",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.17.1",
+        "axios": "^0.21.1",
         "design-system-utils": "^0.10.0",
         "emotion": "^8.0.11",
         "emotion-server": "^8.0.11",
         "emotion-theming": "^8.0.11",
-        "next": "^4.1.4",
+        "next": "^5.0.0",
         "polished": "^1.9.0",
         "react": "^16.1.1",
-        "react-dom": "^16.0.0",
+        "react-dom": "^16.2.1",
         "react-emotion": "^8.0.11",
         "styled-system": "^1.0.8"
     },
